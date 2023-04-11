@@ -10,7 +10,7 @@ console.log('PRIVATE_KEY:', PRIVATE_KEY);
 module.exports = {
   solidity: "0.8.1",
   paths: {
-    sources: "./src/contracts",
+    sources: "./contracts",
   },
   networks: {
     goerli: {

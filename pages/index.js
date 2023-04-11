@@ -31,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
     if (signer) {
-      const contractAddress = '0x95827e636d1cFd1d73067412e9A8174d4cEc54B2';
+      const contractAddress = '0xBe57e2845c80122bf8086551b325C6704F832A85';
       const newContract = new ethers.Contract(contractAddress, NFTMarketplace.abi, signer);
       setContract(newContract);
     }
